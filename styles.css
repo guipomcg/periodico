@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.titulo {
+  background-color: #333333ab;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+.seccion {
+  flex: 0 1 30%;
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  }
+.seccion h2 {
+  margin-top: 0;
+  text-align: center;
+}
